@@ -15,16 +15,15 @@
   <project path="device/samsung/qcom-common" name="ubuntu_device_samsung_qcom-common" groups="device" remote="ubuntu-j5" revision="cm-14.1"/>
   
   
-  <project path="external/sony/boringssl-compat" name="ubuntu_external_sony_boringssl-compat" remote="ubuntu-j5"/>
+  <project path="external/sony/boringssl-compat" name="ubuntu_external_sony_boringssl-compat" remote="ubuntu-j5" revision="cm-14.1"/>
   
-  <project path="packages/resources/devicesettings" name="ubuntu_packages_resources_devicesettings" remote="ubuntu-j5"/>
+  <project path="packages/resources/devicesettings" name="ubuntu_packages_resources_devicesettings" remote="ubuntu-j5" revision="cm-14.1"/>
   
   
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="ubuntu-j5" revision="cm-14.1"/>
+  <project path="hardware/samsung" name="ubuntu_hardware_samsung" remote="ubuntu-j5" revision="cm-14.1"/>
   
   <project path="system/bt" name="android_system_bt" remote="los" revision="cm-14.1" />
 
-  
   <project path="kernel/samsung/msm8916" name="ubuntu_kernel_samsung_msm8916" remote="ubuntu-j5" revision="cm-14.1"/>
 
   <project path="vendor/samsung/j5-common" name="ubuntu_vendor_samsung_j5-common" groups="device" remote="ubuntu-j5" revision="cm-14.1"/>
