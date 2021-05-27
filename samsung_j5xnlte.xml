@@ -26,7 +26,5 @@
 
   <project path="kernel/samsung/msm8916" name="ubuntu_kernel_samsung_msm8916" remote="ubuntu-j5" revision="cm-14.1"/>
 
-  <project path="vendor/samsung/j5-common" name="ubuntu_vendor_samsung_j5-common" groups="device" remote="ubuntu-j5" revision="cm-14.1"/>
-  <project path="vendor/samsung/j5xnlte" name="ubuntu_vendor_samsung_j5xnlte" groups="device" remote="ubuntu-j5" revision="cm-14.1"/>
-  <project path="vendor/samsung/msm8916-common" name="ubuntu_vendor_samsung_msm8916" groups="device" remote="ubuntu-j5" revision="cm-14.1"/>
+  <project path="vendor/samsung" name="ubuntu_vendor_samsung" groups="device" remote="ubuntu-j5" revision="cm-14.1"/>
 </manifest>
