@@ -3,7 +3,7 @@
 
   <remote  name="ubuntu-j5"
            fetch="https://github.com/ubuntu-j5xnlte/"
-           revision="master"/>
+           revision="cm-14.1"/>
   
   
   <project path="device/samsung/j5-common" name="ubuntu_device_samsung_j5-common" groups="device" remote="ubuntu-j5" revision="cm-14.1"/>
