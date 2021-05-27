@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="ubuntu-j5"
+  <remote  name="ubuntu"
            fetch="https://github.com/ubuntu-j5xnlte/"
            revision="cm-14.1"/>
   
   
-  <project path="device/samsung/j5-common" name="ubuntu_device_samsung_j5-common" groups="device" remote="ubuntu-j5" revision="cm-14.1"/>
+  <project path="device/samsung/j5-common" name="ubuntu_device_samsung_j5-common" groups="device" remote="ubuntu"/>
   
-  <project path="device/samsung/j5xnlte" name="ubuntu_device_samsung_j5xnlte" groups="device" remote="ubuntu-j5" revision="cm-14.1"/>
+  <project path="device/samsung/j5xnlte" name="ubuntu_device_samsung_j5xnlte" groups="device" remote="ubuntu"/>
   
-  <project path="device/samsung/msm8916-common" name="ubuntu_device_samsung_msm8916-common" groups="device" remote="ubuntu-j5" revision="cm-14.1"/>
+  <project path="device/samsung/msm8916-common" name="ubuntu_device_samsung_msm8916-common" groups="device" remote="ubuntu"/>
   
-  <project path="device/samsung/qcom-common" name="ubuntu_device_samsung_qcom-common" groups="device" remote="ubuntu-j5" revision="cm-14.1"/>
-  
-  
-  <project path="external/sony/boringssl-compat" name="ubuntu_external_sony_boringssl-compat" remote="ubuntu-j5" revision="cm-14.1"/>
-  
-  <project path="packages/resources/devicesettings" name="ubuntu_packages_resources_devicesettings" remote="ubuntu-j5" revision="cm-14.1"/>
+  <project path="device/samsung/qcom-common" name="ubuntu_device_samsung_qcom-common" groups="device" remote="ubuntu"/>
   
   
-  <project path="hardware/samsung" name="ubuntu_hardware_samsung" remote="ubuntu-j5" revision="cm-14.1"/>
+  <project path="external/sony/boringssl-compat" name="ubuntu_external_sony_boringssl-compat" remote="ubuntu"/>
   
-  <project path="system/bt" name="android_system_bt" remote="los" revision="cm-14.1" />
+  <project path="packages/resources/devicesettings" name="ubuntu_packages_resources_devicesettings" remote="ubuntu"/>
+  
+  
+  <project path="hardware/samsung" name="ubuntu_hardware_samsung" remote="ubuntu"/>
+  
+  <project path="system/bt" name="android_system_bt" remote="los"/>
 
-  <project path="kernel/samsung/msm8916" name="ubuntu_kernel_samsung_msm8916" remote="ubuntu-j5" revision="cm-14.1"/>
+  <project path="kernel/samsung/msm8916" name="ubuntu_kernel_samsung_msm8916" remote="ubuntu"/>
 
-  <project path="vendor/samsung" name="ubuntu_vendor_samsung" groups="device" remote="ubuntu-j5" revision="cm-14.1"/>
+  <project path="vendor/samsung" name="ubuntu_vendor_samsung" groups="device" remote="ubuntu"/>
 </manifest>
