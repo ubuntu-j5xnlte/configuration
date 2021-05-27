@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="ubuntu-j5"
+           fetch="https://github.com/ubuntu-j5xnlte/"
+           revision="master"/>
+  
+  
+  <project path="device/samsung/j5-common" name="ubuntu_device_samsung_j5-common" groups="device" remote="ubuntu-j5" revision="cm-14.1"/>
+  
+  <project path="device/samsung/j5xnlte" name="ubuntu_device_samsung_j5xnlte" groups="device" remote="ubuntu-j5" revision="cm-14.1"/>
+  
+  <project path="device/samsung/msm8916-common" name="ubuntu_device_samsung_msm8916-common" groups="device" remote="ubuntu-j5" revision="cm-14.1"/>
+  
+  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" groups="device" remote="ubuntu-j5"/>
+  
+  
+  <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="ubuntu-j5"/>
+  
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="ubuntu-j5"/>
+  
+  
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="ubuntu-j5" revision="cm-14.1"/>
+  
+  <project path="system/bt" name="android_system_bt" remote="los" revision="cm-14.1" />
+
+  
+  <project path="kernel/samsung/msm8916" name="ubuntu_kernel_samsung_msm8916" remote="ubuntu-j5" revision="cm-14.1"/>
+
+  <project path="vendor/samsung/j5-common" name="ubuntu_vendor_samsung_j5-common" groups="device" remote="ubuntu-j5" revision="cm-14.1"/>
+  <project path="vendor/samsung/j5xnlte" name="ubuntu_vendor_samsung_j5xnlte" groups="device" remote="ubuntu-j5" revision="cm-14.1"/>
+  <project path="vendor/samsung/msm8916-common" name="ubuntu_vendor_samsung_msm8916" groups="device" remote="ubuntu-j5" revision="cm-14.1"/>
+</manifest>
