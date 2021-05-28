@@ -22,3 +22,5 @@ ln -s /usr/bin/python3 ~/.local/bin/python
 cd frameworks/base/packages/SettingsLib/
 wget https://raw.githubusercontent.com/ubuntu-j5xnlte/configuration/master/etc/common.mk
 ```
+## Notes For Self.
+  1. j5-common appeared out of nowhere in the vendors. the missing propriatery libraries might be a problem.
