@@ -26,8 +26,8 @@ wget https://raw.githubusercontent.com/ubuntu-j5xnlte/configuration/master/etc/c
 ```bash
 cd vendor/samsung/j5xnlte
 rm j5xnlte-vendor.mk
-wget
+wget https://raw.githubusercontent.com/ubuntu-j5xnlte/configuration/master/etc/j5xnlte-vendor.mk
 ```
-4. 
+4. Same problem occurs for `msm8916-common`. Same solution applies.
 ## Notes For Self.
   1. j5-common appeared out of nowhere in the vendors. the missing propriatery libraries might be a problem.
