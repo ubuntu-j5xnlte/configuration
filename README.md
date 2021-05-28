@@ -31,7 +31,9 @@ wget https://raw.githubusercontent.com/ubuntu-j5xnlte/configuration/master/etc/c
 ```
 5. `vendor/samsung/j5xnlte/j5xnlte-vendor.mk` has some dependencies not fufilled, if you find the files necessary you can place them in the `propriatery/` folder, for now it should be safe the remove the references.
 ```bash
-cd vendor/samsung/j5xnlte
+cd vendor/samsung/
+rm -rf j5-common
+cd j5xnlte
 rm j5xnlte-vendor.mk
 wget https://raw.githubusercontent.com/ubuntu-j5xnlte/configuration/master/etc/j5xnlte-vendor.mk
 ```
