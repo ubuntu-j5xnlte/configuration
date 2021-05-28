@@ -43,3 +43,8 @@ cd vendor/samsung/msm8916-common
 rm msm8916-common-vendor.mk
 wget https://raw.githubusercontent.com/ubuntu-j5xnlte/configuration/master/etc/msm8916-common-vendor.mk
 ```
+7. Supplied arguments in `hardware/qcom/audio-caf/msm8916/hal/audio_extn/audio_extn.c` and `hardware/qcom/audio-caf/msm8916/hal/msm8916/platform.c` does not match the argument types needed. Small fix is to change `%ld` to `%d`.
+```bash
+
+```
+
