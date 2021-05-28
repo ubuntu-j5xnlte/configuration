@@ -48,4 +48,14 @@ wget https://raw.githubusercontent.com/ubuntu-j5xnlte/configuration/master/etc/m
 wget https://raw.githubusercontent.com/ubuntu-j5xnlte/configuration/master/etc/platform.c -O hardware/qcom/audio-caf/msm8916/hal/msm8916/platform.c
 wget https://raw.githubusercontent.com/ubuntu-j5xnlte/configuration/master/etc/audio_extn.c -O hardware/qcom/audio-caf/msm8916/hal/audio_extn/audio_extn.c
 ```
+8. After pushing the rootfs according to the Halium documentation, we need to disable rsyslogd. Do this in TWRP
+```bash
+mkdir /a
+mount /data/rootfs.img /a
+echo manual |tee /a/etc/init/rsyslog.override
+umount /a
+sync
+```
+
+And well, you should be set! You can keep following the documentation.
 
