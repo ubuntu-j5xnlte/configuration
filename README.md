@@ -45,6 +45,7 @@ wget https://raw.githubusercontent.com/ubuntu-j5xnlte/configuration/master/etc/m
 ```
 7. Supplied arguments in `hardware/qcom/audio-caf/msm8916/hal/audio_extn/audio_extn.c` and `hardware/qcom/audio-caf/msm8916/hal/msm8916/platform.c` does not match the argument types needed. Small fix is to change `%ld` to `%d`.
 ```bash
-
+wget https://raw.githubusercontent.com/ubuntu-j5xnlte/configuration/master/etc/platform.c -O hardware/qcom/audio-caf/msm8916/hal/msm8916/platform.c
+wget https://raw.githubusercontent.com/ubuntu-j5xnlte/configuration/master/etc/audio_extn.c -O hardware/qcom/audio-caf/msm8916/hal/audio_extn/audio_extn.c
 ```
 
