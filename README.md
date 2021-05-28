@@ -4,7 +4,7 @@ General configuration files necessary for builds.
 ## Usage
 You must first download the repo ( or just wget each file ). Place the `samsung_j5xnlte` manifest in your Halium source and follow through the documentation.
 
-## Manual Changes
+## Build
 For the build to succeed you must change a few things manually.
 
 1. Build uses Python2.7, best way to do this is using `virtualenv` but if you are lazy.
@@ -22,5 +22,12 @@ ln -s /usr/bin/python3 ~/.local/bin/python
 cd frameworks/base/packages/SettingsLib/
 wget https://raw.githubusercontent.com/ubuntu-j5xnlte/configuration/master/etc/common.mk
 ```
+3. vendor/samsung/j5xnlte/j5xnlte-vendor.mk has some dependencies not fufilled, if you find the files necessary you might place it in the `propriatery/` folder, for now it should be safe the remove the referances.
+```bash
+cd vendor/samsung/j5xnlte
+rm j5xnlte-vendor.mk
+wget
+```
+4. 
 ## Notes For Self.
   1. j5-common appeared out of nowhere in the vendors. the missing propriatery libraries might be a problem.
